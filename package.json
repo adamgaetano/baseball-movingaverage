@@ -1,0 +1,24 @@
+{
+  "name": "mlb",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:8080",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "chart.js": "^2.7.2",
+    "express": "^4.16.3",
+    "jsdom": "^12.0.0",
+    "pondjs": "^0.8.9",
+    "react": "^16.4.2",
+    "react-chartkick": "^0.3.0",
+    "react-dom": "^16.4.2",
+    "react-scripts": "1.1.4",
+    "react-timeseries-charts": "^0.15.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
